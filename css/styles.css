@@ -410,16 +410,16 @@ footer .last {
 
 /* Responsive adjustments */
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   nav ul li {
-    display: none;
+    display: 80%;
   }
 
   .header-block img {
-    width: 70%;
+    width: 50%;
     position: absolute;
-    right: 16%;
-    top: 30%;
+    right: 25%;
+    top: 20%;
   }
 
   .header-block .text {
