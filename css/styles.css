@@ -66,10 +66,12 @@ nav ul li {
 nav ul li a {
   color: var(--blue);
   text-decoration: none;
+  font-weight: bold;
+
 }
 
 nav ul li a:hover {
-  color: #00285f83;
+  color: #ffffff83;
 }
 
 nav ul button {
@@ -426,6 +428,14 @@ footer .last {
     position: absolute;
     bottom: 10%;
     left: 15;
+  }
+
+  .header-block .text h2 {
+    text-align: center;
+  }
+
+  .header-block .text p {
+    text-align: center;
   }
 
   section .filter-card {
