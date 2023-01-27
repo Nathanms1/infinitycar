@@ -50,8 +50,6 @@ nav {
   font-size: 35px;
   color: var(--black);
   cursor: pointer;
-  -webkit-text-stroke-width: 0.3px;
-  -webkit-text-stroke-color: var(--red);
 }
 
 nav ul {
@@ -96,7 +94,6 @@ nav ul button:hover {
 
 .content .header-block {
   max-width: 1000px;
-  min-width: 300px;
   height: 450px;
   background: var(--red);
   border-radius: 8px;
@@ -106,7 +103,7 @@ nav ul button:hover {
   position: relative;
   z-index: 10;
   padding: 10px;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .header-block img {
@@ -440,9 +437,30 @@ footer .last {
 
 @media (max-width: 500px) {
   nav ul li {
-    display: 80%;
+    display: 90%;
+}
+  .brand {
+    font-size: 30px;
+    text-align: center;
   }
 
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .content .header-block {
+    max-width: 1000px;
+    height: 450px;
+    background: var(--red);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+    margin-top: 10%;
+  }
   .header-block img {
     width: 50%;
     position: absolute;
